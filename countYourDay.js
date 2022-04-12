@@ -1,5 +1,7 @@
 function countYourDay(list) {
   list
+    .slice()
+    .map(item => Object.assign({}, item))
     .sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf())
     .forEach(({ date, name }) => consoleDate(date, name))
 
