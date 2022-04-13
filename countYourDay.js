@@ -50,7 +50,8 @@ const input = [
   { name: 'Harvey', date: '2018/1/2 9:30' },
   { name: 'Simon', date: '2020/1/2 9:30' },
   { name: 'Leo', date: '2017/8/7 9:30' },
-  { name: 'Edward', date: '2017/9/4 9:30' }
+  { name: 'Edward', date: '2017/9/4 9:30' },
+  { name: 'Lewis', date: '2019/4/22 9:30' }
 ]
 
 const result = countYourDay(input)
@@ -59,6 +60,6 @@ result.forEach(info => {
   console.log(name)
   console.log(`到職日: ${date}`)
   console.log(`在天堂 ${workingDay} 天`)
-  console.log(`約 ${workingYear} 又 ${workingMonth} 個月`)
+  console.log(`約 ${workingYear} 年 又 ${workingMonth} 個月`)
   console.log('----------')
 })
