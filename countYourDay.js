@@ -21,8 +21,8 @@ function countYourDay(list) {
 
     const workingLoooong = now - dateValue
     const workingDay = _countPrecision(workingLoooong / day)
-    const workingYear = nowYear - dateYear
-    let workingMonth = dateMonth > nowMonth ? dateMonth - nowMonth : nowMonth + 12 - dateMonth
+    const workingYear = Math.floor(workingDay / 365)
+    let workingMonth = Math.floor(workingDay / 30) % 12
     workingMonth = workingMonth % 12
 
     return {
@@ -51,7 +51,8 @@ const input = [
   { name: 'Simon', date: '2020/1/2 9:30' },
   { name: 'Leo', date: '2017/8/7 9:30' },
   { name: 'Edward', date: '2017/9/4 9:30' },
-  { name: 'Lewis', date: '2019/4/22 9:30' }
+  { name: 'Lewis', date: '2019/4/22 9:30' },
+  { name: 'Norman', date: '2019/5/27 9:30' }
 ]
 
 const result = countYourDay(input)
