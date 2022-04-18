@@ -52,7 +52,8 @@ const input = [
   { name: 'Leo', date: '2017/8/7 9:30' },
   { name: 'Edward', date: '2017/9/4 9:30' },
   { name: 'Lewis', date: '2019/4/22 9:30' },
-  { name: 'Norman', date: '2019/5/27 9:30' }
+  { name: 'Norman', date: '2019/5/27 9:30' },
+  { name: 'Sarah', date: '2018/7/2 9:30' }
 ]
 
 const result = countYourDay(input)
