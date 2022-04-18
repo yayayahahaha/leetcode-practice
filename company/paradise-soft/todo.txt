@@ -1,0 +1,19 @@
+
+4/18 (一)
+撰寫英文版的 cakeresume: 基本上就照翻吧，還能怎樣
+LinkedIn 的項目補齊: 雖然這樣說但好像也不知道要補什麼
+104 和 1111 嘛... 應該就更新一下經歷，剩下的島出去到 cakeresume 或 LinkedIn 吧
+但也的確可以在這些地方逛逛去面面看打經驗就是了
+
+撰寫 git 關於 merge-options ours 和 theirs 的問題
+
+把 wonder 的東西修成可以用: scss + postcss
+可以的話順便連圖片的東東都處理一下 (import as base64 stuff)
+再來就是做成 github 的頁面
+可以順利上去之後再去處理舊的 code: 不知道為什麼以前自己要用 v-html 放detail 的 content?
+也想把話面上的彈框切分成 dialog component
+還要添加 eslint 和 prettier 的設定檔
+
+把 typing 那個專案認真地理過一遍 + 使用 Redux
+添加樣式後放到 CakeResume 裡
+
