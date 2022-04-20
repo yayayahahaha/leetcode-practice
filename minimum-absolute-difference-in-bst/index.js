@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/minimum-absolute-difference-in-bst/
-
+// TODO 這個應該有更好的解法
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
