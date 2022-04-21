@@ -40,7 +40,7 @@ function countYourDay(list) {
 }
 
 const input = [
-  { name: 'FlyC', date: '2017/9/11 9:30' },
+  { name: 'FlyC', date: '2017/9/11 9:30', leave: '2021/5/13' },
   { name: 'Sean', date: '2019/9/10 9:30' },
   { name: 'James', date: '2019/10/2 9:30' },
   { name: 'Iris', date: '2020/3/7 9:30' },
@@ -53,7 +53,9 @@ const input = [
   { name: 'Edward', date: '2017/9/4 9:30' },
   { name: 'Lewis', date: '2019/4/22 9:30' },
   { name: 'Norman', date: '2019/5/27 9:30' },
-  { name: 'Sarah', date: '2018/7/2 9:30' }
+  { name: 'Sarah', date: '2018/7/2 9:30' },
+  { name: 'Alex', date: '2016/9/1 9:30' },
+  { name: 'Aaron_Yu', date: '2017/4/20 9:30' /* 這個不確定 */ }
 ]
 
 const result = countYourDay(input)
