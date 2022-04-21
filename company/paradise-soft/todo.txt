@@ -1,8 +1,22 @@
+慢慢地掃過一次 email，分類出 cakeresume 和 linkedin
+接著分類職缺與HH的對應
+同時確認聯繫狀態
+
+有優先安排的事項：
+4/22(五) 19:30 SammyLee 電話, 公司為 LINE
+
+HH: 
+Ariel Lee: 伊諾博弈 的可能面試時間
+4/25(一) 下午時段
+4/27(三) 下午時段
+4/28(四) 下午時段
+4/29(五) 下午時段
+5/2 (一) 下午時段 <--- 這裡不一定有遠端，要再看看
 
 4/18 (一)
 撰寫英文版的 cakeresume: 基本上就照翻吧，還能怎樣
 LinkedIn 的項目補齊: 雖然這樣說但好像也不知道要補什麼
-104 和 1111 嘛... 應該就更新一下經歷，剩下的島出去到 cakeresume 或 LinkedIn 吧
+104 和 1111 嘛... 應該就更新一下經歷，剩下的導出去到 cakeresume 或 LinkedIn 吧
 但也的確可以在這些地方逛逛去面面看打經驗就是了
 
 撰寫 git 關於 merge-options ours 和 theirs 的問題
@@ -15,5 +29,31 @@ LinkedIn 的項目補齊: 雖然這樣說但好像也不知道要補什麼
 還要添加 eslint 和 prettier 的設定檔
 
 把 typing 那個專案認真地理過一遍 + 使用 Redux
+看要不要加個基本的 react-router?
 添加樣式後放到 CakeResume 裡
+
+
+4/21 (四)
+
+新的信件
+LinkedIn
+V - Sammy Lee: LINE --> 已回覆，等待 --> 得知 LINE 的相關資訊，外加加了 Sammy Lee 的 LINE -> 4/22 19:30 電話
+
+V - Amanda Fang: 沒有說是什麼，這個感覺要問問 --> 問成 React , 但沒有說公司是什麼，已聯繫可以的時段等
+
+V - Chris Kang: 區塊鏈交易所, 跨國社交軟體, 影片編輯新創 --> 已回覆，正在聯繫可電話的時間
+
+Oakley Chen - Opennet 公司
+
+Cakeresume
+Nick Chin: 金融公司、區塊鏈公司、外商數據分析公司
+
+======= 以上起碼起碼最起碼要給一個基本回覆 =======
+
+V 代辦: 給 mimi 認識的 HH 回覆 伊諾 那間博弈可安排的面試時間
+
+檢查未接來電
+
+
+接著就處理上面的代辦事項等等吧
 
