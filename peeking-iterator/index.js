@@ -18,37 +18,22 @@
 /**
  * @param {Iterator} iterator
  */
-const PeekingIterator = function (iterator) {
-  function getThemAll(iterator, list = []) {
-    if (!iterator.hasNext()) return
-    list.push(iterator.next)
-    getThemAll(iterator, list)
-  }
-
-  this.list = getThemAll(iterator)
-  this.index = 0
-}
+const PeekingIterator = function (iterator) {}
 
 /**
  * @return {number}
  */
-PeekingIterator.prototype.peek = function () {
-  return this.list[this.index]
-}
+PeekingIterator.prototype.peek = function () {}
 
 /**
  * @return {number}
  */
-PeekingIterator.prototype.next = function () {
-  return this.list[++this.index]
-}
+PeekingIterator.prototype.next = function () {}
 
 /**
  * @return {boolean}
  */
-PeekingIterator.prototype.hasNext = function () {
-  return this.list[this.index + 1]
-}
+PeekingIterator.prototype.hasNext = function () {}
 
 /**
  * Your PeekingIterator object will be instantiated and called as such:
