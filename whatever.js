@@ -31,3 +31,11 @@ function setTimeoutQuestion() {
   }
 }
 setTimeoutQuestion()
+
+/**
+ * 不知道為什麼這種題型在 console.log 裡面會全部都是 [object Object]
+ * 但直接在 console 裡面輸入的話就會出現 0 和 [object Object]
+ * 推測應該是和他的隱含回傳值有關?
+ * */
+console.log({} + [])
+console.log([] + {})
