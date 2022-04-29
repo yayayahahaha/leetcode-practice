@@ -8,7 +8,7 @@ function hoisting() {
   console.log('----------')
   var str = 5
   console.log(str)
-  ;(function() {
+  ;(function () {
     console.log(str)
     str = 10
     console.log(str)
@@ -25,7 +25,7 @@ function setTimeoutQuestion() {
   console.log('----------')
   console.log('setTimeoutQuestion')
   console.log('----------')
-  const list = [1,2,3]
+  const list = [1, 2, 3]
   for (var i = 0; i < list.length; i++) {
     setTimeout(() => console.log(list[i]), list[i])
   }
