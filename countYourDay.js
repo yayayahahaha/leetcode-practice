@@ -55,7 +55,8 @@ const input = [
   { name: 'Norman', date: '2019/5/27 9:30' },
   { name: 'Sarah', date: '2018/7/2 9:30' },
   { name: 'Alex', date: '2016/9/1 9:30' },
-  { name: 'Aaron_Yu', date: '2017/4/20 9:30' /* 這個不確定 */ }
+  { name: 'Aaron_Yu', date: '2017/4/20 9:30' /* 這個不確定 */ },
+  { name: 'Aaron_Lu', date: '2017/8/17 9:30', leave: '2020/10/1 9:30' /* 1141 */ }
 ]
 
 const result = countYourDay(input)
