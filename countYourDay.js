@@ -40,7 +40,7 @@ function countYourDay(list) {
 }
 
 const input = [
-  { name: 'FlyC', date: '2017/9/11 9:30', leave: '2021/5/13' },
+  { name: 'FlyC', date: '2017/9/11 9:30', leave: '2021/5/5 15:35' /* 1697 天 */ },
   { name: 'Sean', date: '2019/9/10 9:30' },
   { name: 'James', date: '2019/10/2 9:30' },
   { name: 'Iris', date: '2020/3/7 9:30' },
