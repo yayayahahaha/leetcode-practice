@@ -59,15 +59,3 @@ console.log(infiniteAdd(13).just)
 console.log(infiniteAdd(1)(2)(3).just)
 console.log(infiniteAdd(3)(4).just)
 console.log(infiniteAdd(1)(2)(3)(4)(5)(6)(7)(8)(9)(10).just)
-
-function ccc(input1) {
-  let accum
-  function result(input2) {
-    accum = input1 + input2
-    return ccc(accum)
-  }
-  result.valueOf = () => accum
-  return result
-}
-
-console.log('result', ccc(1).valueOf())
